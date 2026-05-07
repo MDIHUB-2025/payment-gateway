@@ -4,7 +4,7 @@ Content-Type: application/json
 
 {
 	"name_first": "John",
-	"amount": "100.00",
+	"amount": "500.00",
 	"item_name": "Letlhogonolo",
 	"item_description": "Letlhogonolo school fees",
 	"orderID": "order-123"
