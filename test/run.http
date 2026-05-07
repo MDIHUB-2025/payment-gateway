@@ -1,0 +1,15 @@
+### POST Payfast (calls /api/pay)
+POST http://localhost:4000/api/pay
+Content-Type: application/json
+
+{
+	"name_first": "John",
+	"amount": "500.00",
+	"item_name": "Letlhogonolo",
+	"item_description": "Letlhogonolo school fees",
+	"orderID": "order-123"
+}
+
+### Example curl (local)
+# curl -X POST http://localhost:4000/api/pay -H "Content-Type: application/json" -d '{"name_first":"John","amount":"100.00","item_name":"Test Item","item_description":"Testing payment","orderID":"order-123"}'
+
